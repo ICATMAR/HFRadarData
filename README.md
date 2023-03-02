@@ -1,2 +1,2 @@
 # HFRadarData
-Repositori to store HFRadar Data
+Upload the .ruv and .tuv files with a specific folder structure
