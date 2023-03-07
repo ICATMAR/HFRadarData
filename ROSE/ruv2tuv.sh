@@ -327,7 +327,7 @@ fi
 if [[ ${MAPS} == 0 ]]; then
 	mesg="No TUV files have been created"
 	rm ${LOCKFILE} &>/dev/null
-        message ${E_MESSAGE} "${mesg}" ${E_UNEXPECTED} >> ${LOGFILE}
+        message ${W_MESSAGE} "${mesg}" ${E_UNEXPECTED} >> ${LOGFILE}
 fi
 
 message ${I_MESSAGE} "Process successfully finished" ${SUCCESS_OK} >> ${LOGFILE}
